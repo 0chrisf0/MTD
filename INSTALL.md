@@ -12,18 +12,12 @@
     opam install yojson
     ```
 
-2. Download the zip file for McGraw Tower Defense.
-
-3. Unzip the file and navigate into the 'MTD' directory. Make sure you write
-    ```
-    unzip ms3_code
-    ```
-
-4. Paste this line to run MTD:
-
+2. Make sure you've cloned the repo. Navigate into the MTD directory and paste this line to run the game:
     ```
     make mtd
     ```
+
+
 
   
 

@@ -75,7 +75,7 @@ val draw_info_background : Bears.bear_types -> unit
 (**Draws the rectangle for the selection GUI.*)
 
 val cost_of_beartype : bear_types -> int
-(* Get the cost of each bear type *)
+(** Get the cost of each bear type *)
 
 val bear_info_text : bear_types -> float -> float -> float -> float -> unit
 (** Gets the description of each bear *)

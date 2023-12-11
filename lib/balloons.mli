@@ -53,8 +53,8 @@ val get_hitbox : balloon -> Rectangle.t
 val draw_balloon : float -> balloon -> unit
 (**Draws a given balloon given the path_width.*)
 
-(*** Draws pop image at the given position when called *)
 val draw_pop : Vector2.t -> unit
+(** Draws pop image at the given position when called *)
 
 val draw_pops : Vector2.t list -> unit
 (**Draws all the pops that should be drawn in the current frame.*)

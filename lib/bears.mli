@@ -100,4 +100,4 @@ val remove_bears : bear list -> bear list
 (**Returns a list with the sold bears removed.*)
 
 val update_bear_firing_rate : bear list -> unit
-(* Updates the firing rates of bears according to the speed multiplier*)
+(** Updates the firing rates of bears according to the speed multiplier*)
